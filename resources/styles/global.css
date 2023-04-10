@@ -1,0 +1,58 @@
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  body{
+    font-family: Agrandir;
+    background-color: #062D49;
+  }
+  p{
+    font-family: Agrandir;
+  }
+}
+
+@font-face {
+  font-family: PP Eiko;
+  fonts: url(../fonts/ppeiko-thin.woff) format('woff');
+}
+
+@font-face {
+  font-family: Agrandir;
+  fonts: url(../fonts/Agrandir-Regular.woff) format('woff');
+}
+
+
+/* Hide scrollbar track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #66C7C8;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb when hovering */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #66C7C8;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #66C7C8;
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #66C7C8;
+  }
+}
