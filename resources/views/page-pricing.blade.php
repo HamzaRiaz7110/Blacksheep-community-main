@@ -42,8 +42,7 @@
               </svg>
             </div>
 
-            <div class="col-span-11  flex
-                                            items-center   pl-2 text-black ">10+
+            <div class="col-span-11 flex items-center pl-2 text-black ">10+
               free
               guests per file or folder</div>
 
@@ -107,7 +106,7 @@
               <button class="rounded mt-6
                                                         hover:bg-teal-400
                                                         bg-black
-                                                        w-full py-3"><a href="/free%20black%20sheep%20expsi.html"> Register here for free</a></button>
+                                                        w-full py-3"><a href="/free-black-sheep-membership/"> Register here for free</a></button>
 
             </div>
 
@@ -213,7 +212,7 @@
               </div>
               <hr class="w-[100%] h-px bg-red border-0">
               <button class="rounded mt-6 hover:bg-red bg-black
-                                                    w-full py-3"><a href="/full%20black%20sheep%20expsi.html"> Register with full
+                                                    w-full py-3"><a href="/full-black-sheep-membership/"> Register with full
                   benefits</a></button>
 
             </div>
@@ -322,7 +321,7 @@
               <button class="rounded mt-6
                                                         hover:bg-yellow
                                                         bg-black
-                                                        w-full py-3"><a href="/lifetime%20black%20sheep%20expsi.html"> Register with
+                                                        w-full py-3"><a href="/lifetime-black-sheep-membership/"> Register with
                   lifetime benefits</a></button>
 
             </div>
