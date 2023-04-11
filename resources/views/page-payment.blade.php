@@ -1,13 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+  <hr class="xl:w-[80%] lg:w-[80%] sm:w-[100%] md:w-[100%] h-px my-8 bg-[#66C7C8] border-0">
 <div class="flex flex-row">
   <div class=" xl:w-[80%] lg:w-[80%] sm:w-[100%] md:w-[100%]">
     <div class="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row xl:space-x-12 md:space-x-0 sm:space-x-0 lg:space-x-4
                 bg-[#062D49]">
 
       <!-- policy -->
-      <div class="lg:w-[40%]">
+      <div class="xl:w-[40%] lg:w-full md:w-full">
         <div class=" bg-[#CBCBCB] p-3">
           <h1 class="text-black font-ppeiko font-thin">Our payment policy:</h1>
         </div>
@@ -21,7 +22,7 @@
 
 
       <!-- form section -->
-      <form class="space-x-3 w-[100%] lg:w-[65%] relative ml-0 md:ml-10 ">
+      <form class="space-x-3 w-[100%] lg:w-[65%] relative ml-0 md:ml-10 sm:px-5 sm:py-4">
         <div class="flex justify-between mb-6">
           <div class="flex items-center ">
             <input id="default-checkbox" type="checkbox" class="w-6 h-6 accent-[#06a3a5]">
@@ -79,24 +80,6 @@
     <!-- /main -->
   </div>
 
-
-
-  <div class=" xl:w-[20%] lg:w-[20%] sm:hidden md:hidden xl:block lg:block hidden">
-    <div>
-      <div class="flex items-center rounded-md px-4 duration-300 cursor-pointer justify-end ">
-        <span class="text-white mr-4 font-Agrandir">Home Page</span>
-        <i class="text-cyan bi bi-house-door"></i>
-      </div>
-      <div class=" mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer justify-end ">
-        <span class="text-white mr-4 font-Agrandir">Mission Vision</span>
-        <i class="text-cyan bi bi-eye"></i>
-      </div>
-
-      <div class=" mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer justify-end ">
-        <span class="text-white mr-4 font-Agrandir">Ask a Question</span>
-        <i class="text-cyan bi bi-question-circle"></i>
-      </div>
-    </div>
-  </div>
+  @include('sections.sidebar')
 </div>
 @endsection
