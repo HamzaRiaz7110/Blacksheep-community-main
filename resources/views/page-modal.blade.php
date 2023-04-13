@@ -32,7 +32,6 @@
     </button>
     <!-- 3rd party Payment modal -->
     <div>
-
         <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
         <div id="dialog"
             class="hidden w-[300px] sm:w-[400px] md:w-[70%] xl:w-[40%] lg:w-[50%] fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  bg-white rounded-3xl px-6 py-6 space-y-5 font-thin font-ppeiko drop-shadow-lg">
@@ -101,7 +100,6 @@
     </div>
     <!-- complete Payment modal -->
     <div>
-
         <div id="overlay2" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
         <div id="dialog2"
             class="hidden w-[300px] sm:w-[400px] md:w-[70%] xl:w-[40%] lg:w-[50%] fixed z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  bg-white rounded-3xl px-6 py-6 space-y-5 font-thin font-ppeiko drop-shadow-lg">

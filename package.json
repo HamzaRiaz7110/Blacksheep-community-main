@@ -23,5 +23,11 @@
     "@roots/bud-tailwindcss": "6.8.0",
     "@roots/sage": "6.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@caneara/iodine": "^8.3.0",
+    "@kingshott/iodine": "^8.3.0",
+    "alpinejs": "^3.12.0",
+    "jquery": "^3.6.4",
+    "yup": "^1.0.2"
+  }
 }

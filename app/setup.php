@@ -15,6 +15,7 @@ use function Roots\bundle;
  */
 add_action('wp_enqueue_scripts', function () {
     bundle('app')->enqueue();
+    bundle('form')->enqueue();
 }, 100);
 
 /**

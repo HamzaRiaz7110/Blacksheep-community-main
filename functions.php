@@ -62,4 +62,6 @@ collect(['setup', 'filters'])
                 sprintf(__('Error locating <code>%s</code> for inclusion.', 'sage'), $file)
             );
         }
-    });
+});
+
+

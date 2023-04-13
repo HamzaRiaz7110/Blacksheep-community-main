@@ -26,14 +26,8 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
-              Start Course
-            </a>
+            <button type="submit" class="course_name font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+            <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
           </div>
         </div>
       </div>
@@ -47,14 +41,8 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
-              Start Course
-            </a>
+            <button type="submit" class="course_detail font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+           <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
           </div>
         </div>
       </div>
@@ -68,14 +56,8 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
-              Start Course
-            </a>
+            <button type="submit" class="course_detail font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+            <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
           </div>
         </div>
       </div>
@@ -88,14 +70,8 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
-              Start Course
-            </a>
+            <button type="submit" class="course_detail font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+            <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
           </div>
         </div>
       </div>
@@ -108,14 +84,8 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
-              Start Course
-            </a>
+            <button type="submit" class="course_detail font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+           <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
           </div>
         </div>
       </div>
@@ -128,14 +98,16 @@
             </h5>
           </a>
           <div class="absolute bottom-4">
-            <a href="#"
-               class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
-              Details
-            </a>
-            <a href="#"
-               class="font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
+            {{-- <a href="#"
+            class="font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">
+            Details
+          </a> --}}
+           <button type="submit" class="course_detail font-Agrandir inline-flex justify-center items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[black] rounded-md">Details</button>
+           <button type="submit" class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">Start Course</button>
+            {{-- <a
+               class="course_start font-Agrandir inline-flex items-center px-4 py-1 text-base font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
               Start Course
-            </a>
+            </a> --}}
           </div>
         </div>
       </div>
@@ -148,5 +120,11 @@
     </div>
   </div>
   @include('sections.sidebar')
+  
 </div>
 @endsection
+@include('sections.connective_modal')
+@include('sections.book_detail_modal')
+@include('sections.course_name_modal')
+
+
