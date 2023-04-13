@@ -26,7 +26,7 @@
         <!-- flex conatiner for logo/menu -->
         <div class="flex items-center space-x-20 ">
           <!-- logo -->
-          <img class="w-[60%]" src="@asset('images/Logo (1).png')" alt="">
+          <a href="/"><img class="w-[80%]" src="@asset('images/Logo (1).png')" alt=""></a>
           <!-- left menu -->
 
         </div>

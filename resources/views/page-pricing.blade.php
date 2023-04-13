@@ -104,7 +104,7 @@
                                             text-white">
                                             <hr class="w-[100%] h-px bg-[#66C7C8] border-0">
                         <div class=" flex my-2 justify-center text-7xl text-black">
-                            <h1 class="text-4xl">0000€</h1>
+                            <h1 class="text-4xl">279,99€</h1>
                         </div>
                         <hr class="w-[100%] h-px my-2 bg-[#66C7C8] border-0">
                         <button class="rounded mt-6
@@ -338,7 +338,8 @@
                 </div>
             </card>
         </div>
-
         <!-- /main -->
     </div>
+    @include('sections.sidebar')
+
 @endsection

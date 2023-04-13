@@ -16,12 +16,12 @@
 
 @font-face {
   font-family: PP Eiko;
-  fonts: url(../fonts/ppeiko-thin.woff) format('woff');
+  src: url(../fonts/ppeiko-thin.woff) format('woff');
 }
 
 @font-face {
   font-family: Agrandir;
-  fonts: url(../fonts/Agrandir-Regular.woff) format('woff');
+  src: url(../fonts/Agrandir-Regular.woff) format('woff');
 }
 
 

@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+  <hr class="xl:w-[80%] lg:w-[80%] sm:w-[100%] md:w-[100%] h-px my-8 bg-[#66C7C8] border-0">
+
 <div class="flex flex-row">
   <div class=" xl:w-[80%] lg:w-[80%] sm:w-[100%] md:w-[100%]">
       <div class="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row xl:space-x-[24px] md:space-x-6 sm:space-x-0 lg:space-x-4
@@ -26,8 +28,7 @@
                   <div class="col-span-11 text-2xl flex
                       items-center
                        pl-2 text-black ">
-                      <h1>Full Black Sheep
-                          Membership</h1>
+                      <h1>Free tBSI Membership</h1>
                   </div>
                   <!-- Line -->
                   <div class="col-span-12 h-[1px] bg-white
@@ -104,15 +105,15 @@
                   <div class="col-span-12 lg:mt-[54px] md:mt[0px] 
                                       mb-5 
                                       text-white">
-                      <hr class="my-2 bg-[#66C7C8]">
+                      <hr class="w-[100%] h-px bg-cyan border-0 mb-2">
                       <div class=" flex justify-center text-4xl text-black">
                           <h1 class="text-4xl">279,99€</h1>
                       </div>
-                      <hr class="my-2  bg-[#66C7C8] ">
+                      <hr class="w-[100%] h-px bg-cyan border-0 mt-2">
                       <button id="open" class="rounded mt-6
                                           
                                           bg-[#66C7C8]
-                                          w-full py-3">Back</button>
+                                          w-full py-3"><a href="javascript:history.back()">Back</a></button>
 
                   </div>
 
@@ -244,10 +245,10 @@
                   </div>
               </div>
               <div class="absolute right-0 pb-3">
-                  <a href="#"
+                  {{-- <a href="#"
                       class="font-Agrandir inline-flex items-center px-12 py-2 text-xl font-medium text-center text-white border-[1px] border-white  rounded-md">
                       Pay
-                  </a>
+                  </a> --}}
                   <a href="#"
                       class="font-Agrandir inline-flex items-center px-7 py-2 text-xl font-medium text-center text-black border-[1px] border-[#66C7C8] bg-[#66C7C8] rounded-md">
                       Confirm

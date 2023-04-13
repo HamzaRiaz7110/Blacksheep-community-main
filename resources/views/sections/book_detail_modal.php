@@ -30,5 +30,5 @@
                 <hr class="h-px my-3 bg-[#66C7C8] border-0">
                 </div>
             </div>
-   class     </div>
+</div>
     </div>
